@@ -135,6 +135,9 @@ struct ContentView: View {
                 
                 Text(message)
                     .padding()
+                    .background(.white)
+                    .foregroundColor(.black)
+                    .cornerRadius(10)
                 
                 
             }
